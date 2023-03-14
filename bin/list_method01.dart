@@ -7,5 +7,11 @@
     Returns:
         list: return answer
 */
+ List func(List fruits, String x){
+ fruits.add(x);
+ return fruits;
+ }
 
-void main() {}
+void main() {
+  print(func(['apple', 'kiwi'], 'orange'));
+}
